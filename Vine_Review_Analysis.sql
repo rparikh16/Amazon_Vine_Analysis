@@ -47,6 +47,9 @@ WHERE vine = 'N';
 -- Review the regular votes table
 SELECT * FROM regular_votes_table;
 
+-- Count the total number of reviews
+SELECT COUNT(star_rating) FROM helpful_votes_table;
+
 -- Create table schema
 CREATE TABLE total_vine_reviews (
 	total_vine_reviews INT
